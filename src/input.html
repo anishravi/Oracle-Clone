@@ -1,0 +1,483 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+    <title>Oracle | Cloud Applications and Cloud </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="m-0">
+
+    <!-- NavBar  -->
+    <nav class="border-gray-200 sticky top-0 z-10 bg-[#3B3732] w-[100%]">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="https://www.oracle.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="https://logos-world.net/wp-content/uploads/2020/09/Oracle-Logo-700x394.png" class="h-11"
+                    alt="Flowbite Logo" />
+                <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span> -->
+            </a>
+            <div class="flex md:order-2">
+                <div class="flex gap-3   items-center">
+                    <div class=" p-2 rounded-xl">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-width="2"
+                                d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z" />
+                        </svg>
+                    </div>
+
+                    <!-- <img class="flag-image" src="https://www.oracle.com/asset/web/i/flg-us.svg"> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
+                        <mask id="a" fill="#fff">
+                            <rect fill-rule="evenodd" height="18" rx="2" width="24" />
+                        </mask>
+                        <g fill="none" fill-rule="evenodd">
+                            <g transform="translate(0 3)">
+                                <rect fill="#fff" height="18" mask="url(#a)" rx="2" width="24" />
+                                <path d="M0 0h11v10H0z" fill="#003d8a" mask="url(#a)" />
+                                <path d="M24 16v2H0v-2zm0-4v2H0v-2zm0-4v2H11V8zm0-4v2H11V4zm0-4v2H11V0z" fill="#e93526"
+                                    mask="url(#a)" />
+                                <path
+                                    d="M2 8v1H1V8zm2 0v1H3V8zm2 0v1H5V8zm2 0v1H7V8zm2 0v1H9V8zM3 7v1H2V7zm2 0v1H4V7zm2 0v1H6V7zm2 0v1H8V7zM2 6v1H1V6zm2 0v1H3V6zm2 0v1H5V6zm2 0v1H7V6zm2 0v1H9V6zM3 5v1H2V5zm2 0v1H4V5zm2 0v1H6V5zm2 0v1H8V5zM2 4v1H1V4zm2 0v1H3V4zm2 0v1H5V4zm2 0v1H7V4zm2 0v1H9V4zM3 3v1H2V3zm2 0v1H4V3zm2 0v1H6V3zm2 0v1H8V3zM2 2v1H1V2zm2 0v1H3V2zm2 0v1H5V2zm2 0v1H7V2zm2 0v1H9V2zM3 1v1H2V1zm2 0v1H4V1zm2 0v1H6V1zm2 0v1H8V1z"
+                                    fill="#fff" mask="url(#a)" />
+                            </g>
+                            <rect height="17" opacity=".1" rx="2" stroke="#100f0e" width="23" x=".5" y="3.5" />
+                        </g>
+                    </svg>
+                    <!-- <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m13 19 3.5-9 3.5 9m-6.125-2h5.25M3 7h7m0 0h2m-2 0c0 1.63-.793 3.926-2.239 5.655M7.5 6.818V5m.261 7.655C6.79 13.82 5.521 14.725 4 15m3.761-2.345L5 10m2.761 2.655L10.2 15" />
+                    </svg> -->
+                    <div class=" p-2 w-40 bg-[#161513] cursor-pointer flex gap-2 rounded-md">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Zm0 0a8.949 8.949 0 0 0 4.951-1.488A3.987 3.987 0 0 0 13 16h-2a3.987 3.987 0 0 0-3.951 3.512A8.948 8.948 0 0 0 12 21Zm3-11a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                        </svg>
+                        <span class="text-white">View Accounts</span>
+                    </div>
+                    <div class="border-2 p-2 w-40 bg-[#3B3732] cursor-pointer flex gap-2 rounded-md">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 17h6l3 3v-3h2V9h-2M4 4h11v8H9l-3 3v-3H4V4Z" />
+                        </svg>
+                        <span class="text-white font-bold">Contact Sales</span>
+                    </div>
+                </div>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-search">
+                <div class="relative mt-3 md:hidden">
+                    <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                        <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+                        </svg>
+                    </div>
+                    <input type="text" id="search-navbar"
+                        class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="Search...">
+                </div>
+                <ul
+                    class="flex flex-col p-4 md:p-0 mt-4 font-medium border  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
+                    <!-- md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 border-gray-100 rounded-lg bg-gray-50-->
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0 md:hover:underline-offset-4  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent hover:border-b-2 hover:border-red-600 dark:border-gray-700">Products</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent hover:border-b-2 hover:border-red-600 dark:border-gray-700">Industries</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent hover:border-b-2 hover:border-red-600 dark:border-gray-700">Resources</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 hover:border-b-2 hover:border-red-600 border-white">Customers</a>
+                    </li>
+
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent hover:border-b-2 hover:border-red-600 dark:border-gray-700">Partners</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent hover:border-b-2 hover:border-red-600 dark:border-gray-700">Developers</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent hover:border-b-2 hover:border-red-600 dark:border-gray-700">Company</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- First section  -->
+    <div class="h-[500px] pb-12">
+        <img class="w-full h-full"
+            src="https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONT11887FE12BFD4E078FFE36299304E987/native/rh08-ocw24-reg-launch.jpg"
+            alt="">
+    </div>
+
+
+
+    <!-- Second section  -->
+    <div class="flex justify-center items-center gap-5">
+        <div class="max-w-sm p-6 bg-white border-b-4 border-green-600 rounded-sm shadow h-[440px] flex flex-col gap-6">
+            <a href="#">
+                <h4 class="mb-2 text-2xl font-semibold tracking-tight ">Intelsat cuts connectivity costs by 50% with
+                    Oracle Integration</h4>
+            </a>
+            <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">A premier integrated space and terrestrial
+                network operator seamlessly connects applications, data, and partner ecosystems.</p>
+            <img class="pt-6"
+                src="https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONTE16DAFEFED884D11A0BB995810164932/native/rh09-intelsat.jpg"
+                alt="">
+            <a href="#" class="inline-flex pt-2 font-medium items-center text-blue-600 hover:underline">Read the
+                story</a>
+            </a>
+        </div>
+        <div class="max-w-sm p-6 bg-white border-b-4 border-green-600 rounded-sm shadow h-[440px] flex flex-col gap-2">
+            <a href="#">
+                <h5 class="mb-2 text-2xl font-semibold tracking-tight ">Tata Motors Drives Sales Excellence with Oracle
+                    Cloud Infrastructure</h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">India’s leading automobile manufacturer
+                migrates its Dealer Management System to Oracle Cloud Infrastructure to gain faster insights and improve
+                productivity</p>
+            <img src="https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONT34162861C1584A26BF95FDDA4EAEDDA3/native/rh09-tata-motors.jpg"
+                alt="">
+            <a href="#" class="pt-3 inline-flex font-medium items-center text-blue-600 hover:underline">Read the
+                story</a>
+        </div>
+        <div class="max-w-sm p-6 bg-white  border-b-4 border-green-600 rounded-sm shadow h-[440px] flex flex-col gap-3">
+            <a href="#">
+                <h5 class="mb-2 text-2xl font-semibold tracking-tight ">Lighthouse Info Systems lowers costs for its
+                    customers by 15%</h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Oracle Cloud Infrastructure allows this ERP
+                system provider to offer improved availability and security to its customers.</p>
+            <img class="pt-11"
+                src="https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONTF0E9A0869AE84FD3A17323CBA8C316E8/native/rh09-lighthouse.jpg"
+                alt="">
+            <a href="#" class="pt-2 inline-flex font-medium items-center text-blue-600 hover:underline">Read the
+                story</a>
+            </a>
+        </div>
+    </div>
+
+
+    <!-- Third Section -->
+    <div class=" h-[314px] w-[100%] mt-6 border flex justify-center">
+        <div class="h-[314px] w-[50%]">
+            <img src="../assets/rh02-panel2.png" alt="" class="h-[314px] w-full ">
+            <div class="relative top-[-230px] left-64  text-white flex flex-col gap-3">
+                <h1 class="relative text-end font-semibold text-xl w-[121px] left-60">Oracle Cloud <span
+                        class="text-4xl font-bold">Applications</span></h1>
+                <p class="w-[427px] break-words">A complete Suite of Cloud Applications delivering consistent processes
+                    and data across your business
+                </p>
+                <button class="bg-white text-black h-10 w-40 rounded-md">Explore Cloud Apps</button>
+            </div>
+        </div>
+        <div class="h-[314px] w-[50%]">
+            <img src="../assets/rh02-panel1.png" alt="" class="h-[314px] w-full">
+            <div class="relative top-[-230px] left-20  text-white flex flex-col gap-3 w-[60%]">
+                <h1 class="relative text-end font-semibold text-xl w-[121px]">Oracle Cloud <span
+                        class="text-4xl font-bold">Infrastructure</span></h1>
+                <p class="w-[427px] break-words">An automated, secure platform for migrating enterprise workloads and
+                    building new cloud native apps</p>
+                <button class="bg-white text-black h-10 w-32 rounded-md">Explore OCI </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Fourth Section -->
+    <div>
+        <div class="py-8 pl-16">
+            <h2 class="font-normal text-4xl">Learn why more than 400,000 customers trust Oracle</h2>
+        </div>
+        <div class="flex pb-12 pl-24">
+            <div class="p-8 border-b-4 hover:border-b-green-500"><img class="h-14 w-32 "
+                    src="https://logohistory.net/wp-content/uploads/2023/06/Uber-Logo-1536x864.jpg" alt=""></div>
+            <div class="p-8 border-b-4 hover:border-b-green-500"><img class="h-14 w-32 "
+                    src="https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONT7569C0001DF545068CFAB954B7D5D2DA/native/customerlogo-aon-blk.png"
+                    alt=""></div>
+            <div class="p-8 border-b-4 hover:border-b-green-500"><img class="h-14 w-32 "
+                    src="https://imgs.search.brave.com/bemMi6glzOGFqRXW5jwbT9tYAsUVx2KciXsJsWw2_es/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zZWVr/dmVjdG9ybG9nby5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjEvMTIvYXVzdHJh/bGlhbi1uYXRpb25h/bC11bml2ZXJzaXR5/LXZlY3Rvci1sb2dv/LTIwMjEucG5n"
+                    alt=""></div>
+            <div class="p-8 border-b-4 hover:border-b-green-500"><img class="h-14 w-32 "
+                    src="https://imgs.search.brave.com/ui-KW1mdTdYAWcsm96Z1VblwgFPQlJ0Ho1iYPC8W3Lk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9hbGx2/ZWN0b3Jsb2dvLmNv/bS9pbWcvMjAxNy8w/OS9tZ20tcmVzb3J0/cy1pbnRlcm5hdGlv/bmFsLWxvZ28ucG5n"
+                    alt=""></div>
+            <div class="p-8 border-b-4 hover:border-b-green-500"><img class="h-14 w-32 "
+                    src="https://imgs.search.brave.com/959dhPcH4zTRieVB5D4XgZTsTZvcU8CHfWMVcZW6F2Y/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi8wLzA1L0FN/Q19UaGVhdHJlc19s/b2dvLnN2Zy8yMjBw/eC1BTUNfVGhlYXRy/ZXNfbG9nby5zdmcu/cG5n"
+                    alt=""></div>
+            <div class="p-8 border-b-4 hover:border-b-green-500"><img class="h-14 w-34 "
+                    src="../assets/grant-thorton.png" alt=""></div>
+            <div class="p-8 pt-24 h-14 w-34 border-b-4 "><img class="h-14 w-34 " src="" alt=""></div>
+            <!-- <svg width="216" height="40" viewBox="0 0 216 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_1113_1387)">
+            <path d="M78.0321 24.2322C76.3822 24.2322 75.7734 23.5055 75.7734 22.3467C75.7734 21.0112 76.5197 20.3237 78.4641 20.3237H81.0371V21.0897C81.0371 23.1323 79.7801 24.2322 78.0321 24.2322ZM73.554 22.5628C73.554 24.1537 74.4771 25.8624 77.3643 25.8624C79.0337 25.8624 80.1925 25.2143 80.9978 24.1929L81.2728 25.6071H83.0797V17.9865C83.0797 14.7262 81.1353 14.1566 78.8177 14.1566C77.0697 14.1566 74.7717 14.6672 74.2218 17.2991H76.4412C76.7161 16.317 77.3839 15.7475 78.798 15.7475C79.9568 15.7475 81.0567 16.1599 81.0567 18.0061V18.8114H78.6213C75.6752 18.8114 73.554 19.7934 73.554 22.5628ZM67.6814 25.6071H69.7633V18.615C69.7633 16.9848 70.765 16.2581 72.0417 16.2581C72.4738 16.2581 72.9255 16.2778 73.3772 16.3563V14.3137C72.9844 14.1762 72.6309 14.1566 72.2773 14.1566C71.1185 14.1566 70.2151 14.844 69.7633 15.8064L69.508 14.4512H67.6814V25.6071ZM141.53 25.6071H143.612V18.615C143.612 16.9848 144.614 16.2581 145.89 16.2581C146.323 16.2581 146.774 16.2778 147.226 16.3563V14.3137C146.833 14.1762 146.48 14.1566 146.126 14.1566C144.967 14.1566 144.064 14.844 143.612 15.8064L143.357 14.4512H141.53V25.6071ZM102.386 16.2581V14.4315H100.108V11.2498L97.9673 11.5837V14.4315H96.3568V16.2581H97.9673V23.368C97.9673 24.9589 98.5565 25.9213 100.894 25.9213C101.404 25.9213 102.17 25.8231 102.642 25.6856V24.0947C102.151 24.2322 101.699 24.2519 101.365 24.2519C100.383 24.2519 100.108 23.7805 100.108 22.7592V16.2778H102.386V16.2581ZM165.197 16.2581V14.4315H162.899V11.2498L160.778 11.5837V14.4315H159.168V16.2581H160.778V23.368C160.778 24.9589 161.367 25.9213 163.705 25.9213C164.215 25.9213 164.981 25.8231 165.453 25.6856V24.0947C164.962 24.2322 164.51 24.2519 164.176 24.2519C163.194 24.2519 162.919 23.7805 162.919 22.7592V16.2778H165.197V16.2581ZM134.165 24.1537C132.162 24.1537 130.865 22.7592 130.865 19.9898C130.865 17.3384 132.201 15.8457 134.185 15.8457C136.188 15.8457 137.366 17.3187 137.366 20.1077C137.386 22.8181 136.149 24.1537 134.165 24.1537ZM171.423 24.1537C169.42 24.1537 168.124 22.7592 168.124 19.9898C168.124 17.3384 169.459 15.8457 171.443 15.8457C173.446 15.8457 174.625 17.3187 174.625 20.1077C174.644 22.8181 173.407 24.1537 171.423 24.1537ZM148.679 25.6071H150.702V19.1649C150.702 17.3187 151.508 16.0224 153.432 16.0224C155.239 16.0224 155.789 16.7884 155.789 18.6739V25.5874H157.871V18.0847C157.871 15.5118 156.791 14.1762 154.356 14.1762C152.686 14.1762 151.449 14.7851 150.702 15.8457L150.447 14.4315H148.679V25.6071ZM85.7705 25.6071H87.7935V19.1649C87.7935 17.3187 88.5987 16.0224 90.5235 16.0224C92.3304 16.0224 92.8804 16.7884 92.8804 18.6739V25.5874H94.9623V18.0847C94.9623 15.5118 93.882 14.1762 91.4466 14.1762C89.7772 14.1762 88.5398 14.7851 87.7935 15.8457L87.5381 14.4315H85.7705V25.6071ZM178.808 25.6071H180.831V19.1649C180.831 17.3187 181.636 16.0224 183.561 16.0224C185.368 16.0224 185.918 16.7884 185.918 18.6739V25.5874H188V18.0847C188 15.5118 186.92 14.1762 184.484 14.1762C182.815 14.1762 181.578 14.7851 180.831 15.8457L180.576 14.4315H178.808V25.6071ZM116.606 10.6016V8.79469H104.724V10.6016H109.575V25.5874H111.834V10.6016H116.606ZM117.687 25.6071H119.709V19.1649C119.709 17.3187 120.495 16.0224 122.44 16.0224C124.246 16.0224 124.796 16.7884 124.796 18.6739V25.5874H126.878V18.0847C126.878 15.5118 125.798 14.1762 123.363 14.1762C121.693 14.1762 120.456 14.7851 119.709 15.8457V8.81433H117.687V25.6071ZM59.3145 18.9489H63.2819V22.6806C62.0642 23.7412 60.218 24.1537 58.7253 24.1537C54.9936 24.1537 52.8724 21.7379 52.8724 17.4955C52.8724 12.9978 55.1507 10.5034 58.686 10.5034C60.7876 10.5034 62.3588 11.2498 63.8515 12.6639L65.1674 11.1712C63.8319 9.69815 61.5339 8.61792 58.9217 8.61792C53.658 8.61792 50.5352 12.2907 50.5352 17.4366C50.5352 22.4842 53.1277 25.9802 58.7646 25.9802C61.8678 25.9802 64.2836 24.625 65.4817 23.3288V17.2402H59.3342V18.9489H59.3145ZM134.322 14.1566C130.63 14.1566 128.685 16.7099 128.685 20.0684C128.685 23.5448 130.61 25.8428 134.067 25.8428C137.504 25.8428 139.645 23.5841 139.645 20.0095C139.645 16.3367 137.661 14.1566 134.322 14.1566ZM171.58 14.1566C167.868 14.1566 165.944 16.7099 165.944 20.0684C165.944 23.5448 167.868 25.8428 171.325 25.8428C174.762 25.8428 176.903 23.5841 176.903 20.0095C176.903 16.3367 174.919 14.1566 171.58 14.1566Z" fill="black"></path>
+            <path d="M19.9891 12.2753C23.1402 13.2864 25.6328 15.6145 27.3259 18.9537C27.5611 19.4005 27.6787 20.0589 27.5376 20.4587C27.5846 20.2941 27.6552 20.153 27.7022 19.9884C31.7469 7.28997 17.4259 -1.24619 10.1596 2.58685C10.0185 2.6574 9.87738 2.72795 9.73629 2.82201C0.400603 8.3952 -2.72697 20.3881 2.58755 29.8179C-1.22197 22.5516 7.29067 8.23059 19.9891 12.2753Z" fill="url(#paint0_linear_1113_1387)"></path>
+            <path d="M12.2762 19.9883C13.2874 16.8372 15.6154 14.3446 18.9547 12.6515C19.4014 12.4163 20.0599 12.2987 20.4596 12.4398C20.295 12.3928 20.1539 12.3222 19.9893 12.2752C7.29093 8.23054 -1.22171 22.5515 2.58781 29.8178C2.65836 29.9589 2.7289 30.1 2.82297 30.2411C8.39616 39.6003 20.3891 42.7514 29.8188 37.4134C22.5525 41.2229 8.23155 32.7102 12.2762 19.9883Z" fill="url(#paint1_linear_1113_1387)"></path>
+            <path d="M19.99 27.7249C16.8389 26.7138 14.3463 24.3857 12.6532 21.0465C12.418 20.5997 12.3004 19.9413 12.4415 19.5415C12.3945 19.7061 12.324 19.8472 12.2769 20.0118C8.23225 32.7102 22.5532 41.2464 29.8195 37.4369C29.9606 37.3663 30.1017 37.2958 30.2428 37.2017C39.602 31.6285 42.7531 19.6356 37.4151 10.2058C41.2246 17.4486 32.712 31.7696 19.99 27.7249Z" fill="url(#paint2_linear_1113_1387)"></path>
+            <path d="M27.7262 19.9883C26.7151 23.1394 24.387 25.6321 21.0478 27.3252C20.601 27.5604 19.9426 27.6779 19.5428 27.5368C19.7074 27.5839 19.8485 27.6544 20.0131 27.7015C32.7115 31.7461 41.2477 17.4251 37.4146 10.1588C37.3441 10.0177 37.2735 9.87665 37.1795 9.73555C31.6063 0.399871 19.6133 -2.7277 10.1836 2.58682C17.4499 -1.2227 31.7709 7.28993 27.7262 19.9883Z" fill="url(#paint3_linear_1113_1387)"></path>
+            </g>
+            <defs>
+            <linearGradient id="paint0_linear_1113_1387" x1="28.3662" y1="14.3358" x2="-0.304536" y2="16.3406" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#522583"></stop>
+            <stop offset="0.1185" stop-color="#522583"></stop>
+            <stop offset="0.1209" stop-color="#522583"></stop>
+            <stop offset="0.2261" stop-color="#62368C"></stop>
+            <stop offset="0.4374" stop-color="#7F5CA3"></stop>
+            <stop offset="0.6234" stop-color="#977AB6"></stop>
+            <stop offset="0.7752" stop-color="#A58EC2"></stop>
+            <stop offset="0.8736" stop-color="#AB95C7"></stop>
+            <stop offset="1" stop-color="#9B80B9"></stop>
+            </linearGradient>
+            <linearGradient id="paint1_linear_1113_1387" x1="14.3367" y1="11.6298" x2="16.3415" y2="40.3006" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#522583"></stop>
+            <stop offset="0.1185" stop-color="#522583"></stop>
+            <stop offset="0.1209" stop-color="#522583"></stop>
+            <stop offset="0.2261" stop-color="#62368C"></stop>
+            <stop offset="0.4374" stop-color="#7F5CA3"></stop>
+            <stop offset="0.6234" stop-color="#977AB6"></stop>
+            <stop offset="0.7752" stop-color="#A58EC2"></stop>
+            <stop offset="0.8736" stop-color="#AB95C7"></stop>
+            <stop offset="1" stop-color="#9B80B9"></stop>
+            </linearGradient>
+            <linearGradient id="paint2_linear_1113_1387" x1="11.6316" y1="25.6597" x2="40.302" y2="23.6548" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#522583"></stop>
+            <stop offset="0.1185" stop-color="#522583"></stop>
+            <stop offset="0.1209" stop-color="#522583"></stop>
+            <stop offset="0.2261" stop-color="#62368C"></stop>
+            <stop offset="0.4374" stop-color="#7F5CA3"></stop>
+            <stop offset="0.6234" stop-color="#977AB6"></stop>
+            <stop offset="0.7752" stop-color="#A58EC2"></stop>
+            <stop offset="0.8736" stop-color="#AB95C7"></stop>
+            <stop offset="1" stop-color="#9B80B9"></stop>
+            </linearGradient>
+            <linearGradient id="paint3_linear_1113_1387" x1="25.6609" y1="28.3653" x2="23.656" y2="-0.305291" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#522583"></stop>
+            <stop offset="0.1185" stop-color="#522583"></stop>
+            <stop offset="0.1209" stop-color="#522583"></stop>
+            <stop offset="0.2261" stop-color="#62368C"></stop>
+            <stop offset="0.4374" stop-color="#7F5CA3"></stop>
+            <stop offset="0.6234" stop-color="#977AB6"></stop>
+            <stop offset="0.7752" stop-color="#A58EC2"></stop>
+            <stop offset="0.8736" stop-color="#AB95C7"></stop>
+            <stop offset="1" stop-color="#9B80B9"></stop>
+            </linearGradient>
+            <clipPath id="clip0_1113_1387">
+            <rect width="215.121" height="40" fill="white"></rect>
+            </clipPath>
+            </defs>
+            </svg> -->
+        </div>
+    </div>
+
+
+    <!-- Fifth Section -->
+    <div class=" h-[520px]">
+        <img class="h-full"
+            src="https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONT904C64E3FB4A424E951825436EE6DA48/native/uber-alternate-banner.jpg"
+            alt="">
+        <div class="top-[-360px] p-14 left-24 w-[665px] h-[231px] relative bg-white">
+            <h2 class="font-bold text-2xl mb-4">Uber relies on Oracle Cloud to deliver on promises to its customers</h2>
+            <button class="bg-black text-white h-10 w-32 rounded-md text-[13px] font-bold">Read Uber's story</button>
+        </div>
+    </div>
+
+    <!-- Chatbot for talk -->
+
+    <div class="w-[128px]  h-[128px] z-10  sticky border bottom-6 bg-white flex items-center justify-center rounded-lg ml-[1390px]">
+        <div class="relative border-[##e4e1dd] rounded-md shadow-[rgba(0,0,0,0.25)_0px_px_20px_0px]">
+            <svg width="75" height="26" viewBox="0 0 75 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="u35icn"
+                    d="M75 24.2C75 24.9 74.5333 25.3666 73.8333 25.3666C73.4833 25.3666 73.25 25.25 73.0167 25.0166L69.1667 21.1666H52.8333C49.5667 21.1666 47 18.6 47 15.3333V10.6666C47 7.39998 49.5667 4.83331 52.8333 4.83331H69.1667C72.4333 4.83331 75 7.39998 75 10.6666V15.3333V24.2ZM54 15.3333C55.2833 15.3333 56.3333 14.2833 56.3333 13C56.3333 11.7166 55.2833 10.6666 54 10.6666C52.7167 10.6666 51.6667 11.7166 51.6667 13C51.6667 14.2833 52.7167 15.3333 54 15.3333ZM61 15.3333C62.2833 15.3333 63.3333 14.2833 63.3333 13C63.3333 11.7166 62.2833 10.6666 61 10.6666C59.7167 10.6666 58.6667 11.7166 58.6667 13C58.6667 14.2833 59.7167 15.3333 61 15.3333ZM68 15.3333C69.2833 15.3333 70.3333 14.2833 70.3333 13C70.3333 11.7166 69.2833 10.6666 68 10.6666C66.7167 10.6666 65.6667 11.7166 65.6667 13C65.6667 14.2833 66.7167 15.3333 68 15.3333Z"
+                    fill="#C74634"></path>
+                <path class="u35icn1"
+                    d="M7.19767 0.167574C8.96408 0.151168 10.4735 1.44179 10.7223 3.2C10.859 4.23359 11.1133 5.25351 11.4797 6.22968C11.9637 7.51484 11.6547 8.95859 10.684 9.94023L9.84181 10.7797C11.2227 12.9371 13.0602 14.7719 15.2258 16.1473L16.0735 15.3051C17.0524 14.3398 18.5016 14.0336 19.7867 14.5121C20.7684 14.8785 21.7883 15.1301 22.8383 15.2695C24.6047 15.5184 25.8707 17.0605 25.8324 18.8352V22.3352C25.8352 23.325 25.4551 24.2437 24.725 24.9137C23.9949 25.5809 23.016 25.9117 22.007 25.8215C18.2117 25.4113 14.5641 24.118 11.3703 22.0535C8.38712 20.1641 5.86056 17.643 3.96837 14.6789C1.88478 11.4687 0.588687 7.81562 0.181265 3.9957C0.0937648 3.01406 0.42189 2.04062 1.08908 1.31328C1.75626 0.585933 2.69962 0.170308 3.68947 0.167574H7.19767ZM7.21134 2.5082H3.68673C3.35861 2.5082 3.04416 2.64765 2.81994 2.89101C2.59572 3.13437 2.48908 3.45703 2.51642 3.76601C2.88283 7.20039 4.05587 10.5035 5.94533 13.4102C7.65431 16.0926 9.93751 18.3676 12.6391 20.0766C15.5348 21.9496 18.8297 23.1172 22.2395 23.4863C22.5676 23.5164 22.8957 23.407 23.1391 23.1828C23.3824 22.9613 23.5192 22.6469 23.5192 22.3105V18.8023V18.7723C23.5328 18.1789 23.0981 17.6676 22.5184 17.5883C21.3043 17.4269 20.1094 17.1316 18.961 16.7051C18.5317 16.5437 18.0477 16.6477 17.725 16.9648L16.2348 18.4496C15.8602 18.8215 15.2832 18.9008 14.8238 18.641C11.7012 16.8664 9.11447 14.2879 7.33986 11.1762C7.07736 10.7168 7.15665 10.1426 7.53126 9.76796L9.01603 8.28593C9.33869 7.96054 9.44259 7.47929 9.28126 7.04726C8.85197 5.90156 8.55392 4.71211 8.39533 3.51445C8.3133 2.93203 7.81017 2.50273 7.21134 2.5082ZM15.3543 4.83242C18.5754 4.83242 21.1594 7.44921 21.1594 10.6648H18.857C18.857 8.73437 17.2848 7.16484 15.3516 7.16484L15.3543 4.83242ZM15.3543 0.167574C21.1512 0.167574 25.8324 4.87617 25.8324 10.6676H23.5301C23.5301 6.16406 19.8633 2.5 15.3543 2.5V0.167574Z"
+                    fill="#C74634"></path>
+                <line class="u35line" x1="37.5" y1="1.97498" x2="37.5" y2="21.8083" stroke="#AEA8A2"></line>
+            </svg>
+            <h2>Talk to Sales</h2>
+        </div>
+    </div>
+   
+
+
+    <!-- Footer Section -->
+    <footer class="bg-[#312C2B] absolute w-full top-[2100px]">
+        <div class="mx-auto w-full max-w-screen-xl">
+            <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-5">
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources for</h2>
+                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                        <li class="mb-4">
+                            <a href="#" class=" hover:underline">Careers</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Developers</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Investors</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Partners</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Researchers</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Students and Educators</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Why Oracle</h2>
+                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Analyst Reports</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Best cloud-based ERP</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Cloud Economics</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Corporate Responsibility</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Culture and Inclusion</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Security Practices</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Learn</h2>
+                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">What is cloud computing?</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">What is CRM?</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">What is Docker?</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">What is Kubernetes?</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">What is Python?</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">What is SaaS?</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">News and Events</h2>
+                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">News</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Oracle CloudWorld</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Oracle CloudWorld Tour</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Oracle Health Summit</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Oracle DevLive</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Search all events</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact Us</h2>
+                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline"><img class="inline pr-2" width="40" height="30"
+                                    src="https://img.icons8.com/external-justicon-flat-justicon/64/external-india-flag-countrys-flags-justicon-flat-justicon.png"
+                                    alt="external-india-flag-countrys-flags-justicon-flat-justicon" />IN Sales +91
+                                80-37132100</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">US Sales: +1.800.633.0738</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">How can we help?</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Subscribe to emails</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Integrity Helpline</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="px-4 py-6  text-white md:flex md:items-center">
+                <div class="flex w-[90%] gap-3 items-center text-center">
+                    <div class="text-sm mt-[-4px]  text-gray-500 dark:text-gray-300 sm:text-center"><a
+                            href="https://oracle.com/">© 2024 Oracle</a>.
+                    </div>
+                    <div class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">
+                        <ul class="flex justify-center gap-3 items-center mt-3">
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Privacy </a>
+                            </li>
+                            <li class="mb-4">
+                                <a>/ </a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Do Not Sell My Info</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Ad Choices</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Careers</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex gap-3 font-bold text-lg">
+                        <a href="https://www.facebook.com/Oracle/" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.twitter.com/Oracle/" target="_blank"><i
+                                class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.linkedin.com/company/oracle" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.youtube.com/Oracle/" target="_blank"><i
+                                class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+</body>
+
+</html>
